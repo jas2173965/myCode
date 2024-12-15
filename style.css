@@ -1,0 +1,50 @@
+/* NAVBAR */
+
+.navbar{
+    background-color: var(--section-background);
+    color: var(--text-color);
+    height: 70px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+.navbar .flex{
+    justify-content: center;
+    align-items: center;
+}
+.navbar a{
+    color: var(--charchoal);
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.navbar a:hover{
+    border-bottom: 2px #fff solid;
+    background-color: var(--charchoal);
+    color: var(--section-background);
+}
+
+nav svg{
+    fill: var(--black);
+}
+#sidebar-active{
+    display: none;
+}
+.checkbox{
+    display: none;
+}
+.open-sidebar-button, .close-sidebar-button{
+    display: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
